@@ -1,11 +1,11 @@
-<?php  
+<?php   
 defined('C5_EXECUTE') or die(_("Access Denied."));
 
 class JeramyAddMultiPagePackage extends Package {
 
 	protected $pkgHandle = 'jeramy_add_multi_page';
 	protected $appVersionRequired = '5.3.3.1';
-	protected $pkgVersion = '1.2';
+	protected $pkgVersion = '1.3';
 	
 	public function getPackageDescription() {
 		return t('Add multiple pages at once.');
