@@ -52,7 +52,7 @@
     <?php    
 	$ih = Loader::helper('concrete/interface');
 	print $ih->button(t('Cancel'), $this->url('/dashboard/sitemap/jeramy_add_multi_page/'), 'left');
-	print $ih->submit('Add', 'sitemap-add-multi-page');
+	print $ih->submit(t('Add'), 'sitemap-add-multi-page');
 	?>
 		<div class="ccm-spacer">&nbsp;</div>
 	</div>
