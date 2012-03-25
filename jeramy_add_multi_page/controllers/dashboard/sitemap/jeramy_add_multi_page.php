@@ -1,6 +1,6 @@
 <?php    
 defined('C5_EXECUTE') or die(_("Access Denied.")); 
-class DashboardSitemapJeramyAddMultiPageController extends Controller {
+class DashboardSitemapJeramyAddMultiPageController extends DashboardBaseController {
 	
 	public $helpers = array('html','form');
 	
